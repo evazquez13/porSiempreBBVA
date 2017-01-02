@@ -42,6 +42,9 @@
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="img/slide-1.png" alt="Chania">
+      <div class="slide-content text-center"><p>Remember is live!<br>
+Share unique moments with the most special to you people.</p>
+</div>
     </div>
 
     <div class="item">
@@ -55,6 +58,8 @@
     <div class="item">
       <img src="img/slide-4.png" alt="Flower">
     </div>
+
+<ul class="main-menu"><li><a href="https://porsiempre.com/en/login/" title="Login" class="button text-center">Login</a></li><li><a href="https://porsiempre.com/en/register/" title="Register" class="button text-center">Register</a></li></ul>    
   </div>
 
   <!-- Left and right controls -->
@@ -144,7 +149,32 @@
         <p class="indexP-fondo-negro">En Por Siempre queremos conocer tu opinión</p>
       </div>
       <div class="col-md-12 index-mensaje">
-        <form>
+<form class="form-inline">
+  <div class="form-group col-lg-4 col-sm-4 col-md-4">
+    <input type="text" class="form-control inputfull" placeholder="Nombre">
+  </div>
+  <div class="form-group col-lg-4 col-sm-4 col-md-4">
+    <input type="password" class="form-control inputfull" placeholder="Apellido Paterno">
+  </div>
+  <div class="form-group col-lg-4 col-sm-4 col-md-4">
+    <input type="text" class="form-control inputfull" placeholder="Apellido Materno">
+  </div>
+  <div class="form-group col-lg-6 col-sm-6 col-md-6">
+    <input type="text" class="form-control inputfull" placeholder="Télefon">
+  </div>
+  <div class="form-group col-lg-6 col-sm-6 col-md-6">
+    <input type="text" class="form-control inputfull" placeholder="Correo Electrónico">
+  </div>
+  <div class="form-group col-lg-12 col-sm-12 col-md-12">
+  <textarea id="message" placeholder="Mensaje" maxlength="800" name="message" row="10" class="form-control inputfull"></textarea>
+  </div>  
+  <div class="form-group col-md-6">
+    <button class="form-control boton-index"><span class="glyphicon glyphicon-send" aria-hidden="true"> Enviar</span></button>
+  </div>
+
+</form>
+
+<!--         <form>
           <div class="col-md-4">
             <input type="text" name="nombre" placeholder="nombre" class="form-control">
           </div>
@@ -158,7 +188,7 @@
             <input type="text" name="telefono" placeholder="Teléfono" class="form-control">
           </div>
           <div class="col-md-6" style="margin-top: 50px;">
-            <input type="email" name="mail" placeholder="Correo electrónico" class="form-control">
+            <input type="text" name="mail" placeholder="Correo electrónico" class="form-control">
           </div>
           <div class="col-md-12" style="margin-top: 50px; height: 100px;">
             <textarea id="message" maxlength="800" name="message" ng-model="main.request.contenido" ng-pattern="/^[a-zA-ZñÑáéíóúÁÉÍÓÚ | {},.:;?¿¡!&quot;()@\-_*+\d\s\][]*$/" required class="form-control"></textarea>
@@ -166,7 +196,7 @@
           <div class="col-md-2 col-md-offset-10 text-right" style="margin-top: 50px;">
             <button class="form-control boton-index"><span class="glyphicon glyphicon-send" aria-hidden="true"> Enviar</span></button>
           </div>
-        </form>
+        </form> -->
       </div>
     </div>
   </div>
