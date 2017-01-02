@@ -136,8 +136,9 @@ nav.nav-menu{
   font-size: 17px;
   padding: 10px 0px 30px 0px;
 }
-.faq{
-  margin-top: 100px;
+.faq h1{
+  margin-top: 150px;
+  margin-bottom: 60px;
   text-align: center;
 }
 .row.faq h2{
@@ -146,4 +147,52 @@ nav.nav-menu{
 .seccion{
   padding-bottom: 5rem;
   padding-top: 5rem;
+}
+.btn-terminos{
+  width: 50%;
+  color: #FFF;
+  background-color: #0dc0c0;
+}
+.aTerminos{
+  font-family: 'bbva-regular';
+  font-size: 18px;
+  margin: 50px 0px 50px 0px;
+  color: #000;
+}
+.aTerminos:hover{
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.pTerminos{
+  font-family: 'bbva-regular';
+  font-size: 18px;
+  margin: 50px 0px 50px 0px;
+  color: #000;
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f2f5f7;
+    border-color: #ddd;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 0px solid transparent;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+a{
+  text-decoration: none !important;
+}
+span.glyphicon.glyphicon-chevron-down{
+  color: #0dc0c0;
+}
+span.glyphicon.glyphicon-chevron-down:hover{
+  color: #00fff8;
+}
+span.glyphicon.glyphicon-chevron-up{
+  color: #0dc0c0;
+}
+span.glyphicon.glyphicon-chevron-up:hover{
+  color: #00fff8;
 }
