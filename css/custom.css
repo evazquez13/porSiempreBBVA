@@ -62,17 +62,18 @@ nav.nav-menu{
   margin: 50px 0px 50px 0px;
   color: #000;
 }
-.index-paquetes{
+.index-paquetes .space{
   background-color: #FFF;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 #CCC;
   height: 370px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .index-paquetes label.agua{
   background-color: #0dc0c0;
   padding: 5px 10px 5px 10px;
   color: #FFF;
-  width: 50%;
   margin-top: -5px;
 }
 .index-paquetes h2.agua{
@@ -87,7 +88,6 @@ nav.nav-menu{
   background-color: #29abe2;
   padding: 5px 10px 5px 10px;
   color: #FFF;
-  width: 50%;
   margin-top: -5px;
 }
 .index-paquetes h2.azul{
@@ -98,7 +98,6 @@ nav.nav-menu{
   background-color: #428b12;
   padding: 5px 10px 5px 10px;
   color: #FFF;
-  width: 50%;
   margin-top: -5px;
 }
 .index-paquetes h2.verde{
@@ -109,7 +108,6 @@ nav.nav-menu{
   background-color: #81003d;
   padding: 5px 10px 5px 10px;
   color: #FFF;
-  width: 50%;
   margin-top: -5px;
 }
 .index-paquetes h2.rojo{
@@ -147,3 +145,10 @@ nav.nav-menu{
   padding-bottom: 5rem;
   padding-top: 5rem;
 }
+.space:not(:last-child) {
+    margin-right: 2rem;
+}
+.space img{
+  display: initial;
+}
+
