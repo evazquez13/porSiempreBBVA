@@ -21,10 +21,20 @@ $(document).on( 'ready' , function() {
 		}
 		clickEvent = false;
 	});
-$('span').on('mouseenter' , function(){
-	$(this).popover('show')
-})
-$('span').on('mouseleave' , function(){
-	$(this).popover('hide')
-})
+
+	$('span').on('mouseenter' , function(){
+		$(this).popover('show')
+	})
+	$('span').on('mouseleave' , function(){
+		$(this).popover('hide')
+	})
+
+$('a[href^="#"]').click(function(){
+	var the_id = $(this).attr("href");
+
+	$('html, body').animate({
+		scrollTop:$(the_id).offset().top
+	}, 'slow');
+	return false;
+});
 });
