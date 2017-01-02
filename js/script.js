@@ -22,7 +22,7 @@ $(document).on( 'ready' , function() {
 		clickEvent = false;
 	});
 
-$('a[href^="#"]').click(function(){
+$('.nav-menu a[href^="#"]').click(function(){
 	var the_id = $(this).attr("href");
 
 	$('html, body').animate({
