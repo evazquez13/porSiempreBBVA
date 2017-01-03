@@ -15,11 +15,13 @@
   font-stretch: normal;
 }
 header.index{
-  background: #1e2832;
   position: fixed;
   text-transform: uppercase;
   width: 100%;
   z-index: 100;
+}
+header.index.active{
+  background: #1e2832;
 }
 nav.nav-menu{
   float: right;
@@ -144,6 +146,9 @@ nav.nav-menu{
 .seccion{
   padding-bottom: 5rem;
   padding-top: 5rem;
+}
+.seccion.first{
+  padding-top: 0rem;
 }
 .space:not(:last-child) {
     margin-right: 2rem;

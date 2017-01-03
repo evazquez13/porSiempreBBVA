@@ -51,4 +51,15 @@ $('.collapse')
                  .removeClass("glyphicon-chevron-up")
                  .addClass("glyphicon-chevron-down");
              });
+    function getScroll(){
+    	var distancia = $(window).scrollTop();
+    	if (distancia <= 5) {
+    		$('header.index').removeClass('active');
+    	}else{
+    		$('header.index').addClass('active');
+    	}
+    }
+    $(window).scroll( function (){
+    	getScroll();
+    });
 });
