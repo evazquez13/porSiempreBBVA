@@ -22,7 +22,7 @@ $(document).on( 'ready' , function() {
 		clickEvent = false;
 	});
 
-$('.nav-menu a[href^="#"]').click(function(){
+$('.navbar-default a[href^="#"]').click(function(){
 	var the_id = $(this).attr("href");
 
 	$('html, body').animate({
@@ -55,8 +55,11 @@ $('.collapse')
     	var distancia = $(window).scrollTop();
     	if (distancia <= 5) {
     		$('header.index').removeClass('active');
+    		$('.navbar-brand').removeClass('scroll')
     	}else{
     		$('header.index').addClass('active');
+    		$('.navbar-brand').addClass('scroll')
+
     	}
     }
     $(window).scroll( function (){

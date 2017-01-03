@@ -23,12 +23,16 @@ header.index{
 header.index.active{
   background: #1e2832;
 }
-nav.nav-menu{
-  float: right;
-  line-height: 8rem;
+.navbar-default{
+  color: #fff;
+  background-color: transparent;
+  border-color:transparent;
 }
-.index .nav-menu a{
-  margin-right: 20px;
+.navbar-default .navbar-nav>li>a{
+  color: #fff;
+}
+.index .navbar-default a{
+  margin-right: 0px;
   font-size: 16px;
   color: #FFF;
   font-family: 'bbva-regular';
@@ -36,16 +40,22 @@ nav.nav-menu{
 .carousel-inner{
   background-color: #000;
 }
-.index .nav-menu a:hover{
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
   color: #f2f5f7;
   text-decoration: none;
 }
-.index .nav-menu span{
+.navbar-nav{
+  padding-top: 1.5rem;
+}
+.navbar-brand.scroll{
+  width: 70%;
+}
+.index .navbar-default span{
   margin-right: 10px;
   color: #0dc0c0;
   font-size: 20px;
 }
-.index .nav-menu span:hover{
+.index .navbar-default span:hover{
   color: #00fff8;
 }
 .carousel-inner .item img{
