@@ -31,6 +31,9 @@ header.index.active{
 .navbar-default .navbar-nav>li>a{
   color: #fff;
 }
+.navbar-brand{
+  padding: 5px 5px;
+}
 .index .navbar-default a{
   margin-right: 0px;
   font-size: 16px;

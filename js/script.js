@@ -1,5 +1,5 @@
 $(document).on( 'ready' , function() {
-// alert('ok')
+tamapopantalla ();
     $('#myCarousel').carousel({
 		interval:   4000
 	});
@@ -62,7 +62,19 @@ $('.collapse')
 
     	}
     }
+    function tamapopantalla (){
+    	var tamano = $(window).width()
+    	if (tamano <= 768){
+    		$('header.index').addClass('active');
+    	}
+    }
     $(window).scroll( function (){
     	getScroll();
+    	tamapopantalla();
     });
+    $(window).resize( function (){
+    	getScroll();
+    	tamapopantalla ();
+    } )
+
 });
